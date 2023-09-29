@@ -1,17 +1,6 @@
 version: 2
 updates:
-- package-ecosystem: npm
-  directory: "/"
-  schedule:
-    interval: weekly
-    time: "13:00"
-  open-pull-requests-limit: 10
-  ignore:
-  - dependency-name: "@testing-library/react-hooks"
-    versions:
-    - 5.0.3
-    - 5.1.0
-    - 5.1.1
-  - dependency-name: "@babel/core"
-    versions:
-    - 7.13.13
+  - package-ecosystem: 'npm' # Tipo de paquete, por ejemplo npm, maven, pip, etc.
+    directory: '/' # La ubicación del archivo de configuración del paquete.
+    schedule:
+      interval: 'daily' # La frecuencia con que Dependabot buscará actualizaciones.

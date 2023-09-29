@@ -6,3 +6,5 @@ CNAME
 dist
 coverage
 lib
+package-lock.json
+
